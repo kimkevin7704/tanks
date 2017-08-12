@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{09F42EB1-9BDA-4653-E137-9C8F5BB7B19E}</ProjectGuid>
+    <ProjectGuid>{5D47CF31-9729-ACD7-B618-7CFC4AB61C72}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -54,17 +54,11 @@
      <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
      <None Include="Assets\OVR\Shaders\OVRColorRampAlpha.shader" />
      <None Include="Assets\OVR\Shaders\Unlit Crosshair.shader" />
-     <None Include="Assets\Tank - Mark V drivable\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\OVR\Resources\Unlit Transparent Color.shader" />
-     <None Include="Assets\Tank - Mark V drivable\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
-     <None Include="Assets\Tank - Mark V drivable\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
-     <None Include="Assets\Tank - Mark V drivable\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\OVR\Resources\Underlay Transparent Occluder.shader" />
      <None Include="Assets\OVR\Resources\Alpha Premultiply.shader" />
-     <None Include="Assets\Tank - Mark V drivable\Read me.txt" />
      <None Include="Assets\OVR\Resources\OVRMRCameraFrame.shader" />
      <None Include="Assets\OVR\Resources\OVRMRClipPlane.shader" />
-     <None Include="Assets\Tank - Mark V drivable\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
      <None Include="Assets\OVR\Resources\Underlay Impostor.shader" />
      <None Include="Assets\OVR\Plugins\placeholder.txt" />
  <Reference Include="UnityEditor.Advertisements">
@@ -106,7 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{51C29FA9-FBE6-3B5E-DA59-E60CAAD6CB52}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{C7E45AC5-E64D-261F-DF12-5BF4A531E67F}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

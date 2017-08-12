@@ -46,7 +46,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\OVR\Scripts\OVRBoundary.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRDebugHeadController.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRDisplay.cs" />
@@ -54,7 +53,6 @@
      <Compile Include="Assets\OVR\Scripts\OVRHapticsClip.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRInput.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRLint.cs" />
-     <Compile Include="Assets\OVR\Scripts\OVRManager.cs" />
      <Compile Include="Assets\OVR\Scripts\OVRMixedReality.cs" />
      <Compile Include="Assets\OVR\Scripts\OVROnCompleteListener.cs" />
      <Compile Include="Assets\OVR\Scripts\OVROverlay.cs" />
@@ -79,7 +77,9 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRWaitCursor.cs" />
-     <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
+     <Compile Include="Assets\Scripts\OVRCameraRig.cs" />
+     <Compile Include="Assets\Scripts\OVRManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
      <None Include="Assets\OVR\Shaders\OVRColorRampAlpha.shader" />
      <None Include="Assets\OVR\Shaders\Unlit Crosshair.shader" />
      <None Include="Assets\OVR\Resources\Unlit Transparent Color.shader" />
